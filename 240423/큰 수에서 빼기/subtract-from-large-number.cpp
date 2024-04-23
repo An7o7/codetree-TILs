@@ -7,7 +7,7 @@ int main() {
     if (a <b){
         cout << b - a;
     }
-    if (a>b){
+    else if (a>b){
         cout << a-b;
     }
     // 여기에 코드를 작성해주세요.
