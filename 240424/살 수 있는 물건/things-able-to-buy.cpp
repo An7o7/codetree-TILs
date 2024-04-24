@@ -3,8 +3,8 @@ using namespace std;
 int main() {
     int a;
     cin >> a;
-
-    if (a<3000){
+    
+    if (a<3000 && a >=1000){
         cout << "mask";
     }
     else if (a>=3000){
