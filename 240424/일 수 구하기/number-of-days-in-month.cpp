@@ -6,7 +6,6 @@ int main() {
     int days;
 
     
-    
     cin >> month;
 
     // 해당 월의 일수 계산
@@ -17,3 +16,9 @@ int main() {
     } else if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
         days = 31;
     }
+
+    // 해당 월의 일수 출력
+    cout << days;
+
+    return 0;
+}
