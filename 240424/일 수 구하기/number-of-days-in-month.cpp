@@ -5,8 +5,8 @@ int main() {
     int month;
     int days;
 
-    // 월 입력 받기
-    cout << "월을 입력하세요: ";
+    
+    
     cin >> month;
 
     // 해당 월의 일수 계산
