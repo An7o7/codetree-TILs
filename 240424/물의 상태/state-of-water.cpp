@@ -10,7 +10,7 @@ int main() {
     else if (a >=100){
         cout << "vapor";
     }
-    else if (a>=0 && a >100){
+    else if (a>=0 && a <100){
         cout << "water";
     }
     // 여기에 코드를 작성해주세요.
