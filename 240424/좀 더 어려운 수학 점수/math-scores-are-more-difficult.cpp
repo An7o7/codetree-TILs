@@ -7,8 +7,8 @@ int main() {
     if (a<c){
         cout << 'B';
     }
-    else cout << 'A';
-    if ( a==c){
+    else if (a>c) cout << 'A';
+    else if ( a==c){
         if (b>d){
             cout << 'A';
         }
