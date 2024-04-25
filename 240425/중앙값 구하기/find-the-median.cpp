@@ -4,7 +4,18 @@ int main() {
     int a,b,c;
     cin >> a >> b >> c;
 
-    cout << ((a>=b)? b>=c? b : a : a >=c ? a : b); 
+    if (a >= b){
+        if (b >= c){
+            cout << b;
+        }
+        else cout << c;
+    }
+    else{
+        if (a >= c){
+            cout << a;
+        }
+        else cout << c;
+    }
     // 여기에 코드를 작성해주세요.
     return 0;
 }
